@@ -15,5 +15,8 @@ The objective of the SOAR-EDR project is to establish a robust Security Orchestr
 2- Alerting: Details such as Title, Username, source IP are sent to Slack and Email
 3- Decision Prompt: Admins receive a Slack prompt asking if the affected machine should be isolated
     -A NO response will send a Slack Message indicating no action taken
-    -A YES response wil execute LimaCharlie isolation and send the status update to Slack
+    -A YES response will execute LimaCharlie isolation and send the status update to Slack
 
+## Step 1
+### Configuring the Windows Server
+For Step 1, I used the Vultr Cloud Services platform to host the Windows Server 2022 target system. The configuration is shown in the screenshot below. 
