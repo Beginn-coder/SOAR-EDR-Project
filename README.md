@@ -45,3 +45,16 @@ On your desktop, create an account with Slack using a valid email account and cr
 The workflow will look something like this: ![image](https://github.com/user-attachments/assets/5ca190b3-802d-4952-a220-6a5630f3ba5b)
 The user prompt will have the following: ![image](https://github.com/user-attachments/assets/5502add4-bf18-4542-b663-affa1426cabe)
 
+If done correctly, you should receive slack messages similar to the below images. 
+
+Non-isolated computer: ![image](https://github.com/user-attachments/assets/e4575410-0b9e-4baa-b232-c581976b95f0)
+
+
+Isolated computer: ![image](https://github.com/user-attachments/assets/e40ab45e-fcd3-4a1b-8db7-fded8594eb94) 
+
+
+## Issues Encountered
+I did encounter a major issue with this project when configuring the workflow. For some reason, I couldn't get the LimaCharlie Sensor to work with Tines as I kept getting HTTP 400 response codes. It appears that when I copied the credential over to Tines, it would revert back to something else after a period of time. I'm not sure how I was able to solve it but I was able to get it to work for a short period of time. 
+
+## Acknowledgement
+I want to give a big thanks to MyDFIR as the creator of this project. His SOAR-EDR project guide was invaluable in gaining practical experience on how to automate alerts. Check his channel out at https://www.youtube.com/@MyDFIR for more tutorials.
